@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = "Có cái PETER mà nhập đc ý vvvvvvvv >3 ";
+    var text = "CCó cái PETER mà nhập đc ý vvvvvvvv >3 ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
