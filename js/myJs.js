@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu cute waaaa vvvvvvvv >3 ";
+    var text = "Có cái PETER mà nhập đc ý vvvvvvvv >3 ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thương tớ đi :vvvv',
+        title: 'Nhập địa chỉ tại đây :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,20 +109,20 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Méo :<<",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho tớ <3'
+        confirmButtonText: 'Gửi cho e <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Thương cậu 3.000',
-                text: "Tối nay zô game chơi nhaaaaaaaaa :>3 Thương cậuuuuuuuuu :>333",
+                title: 'E đã nhận gòi nha!',
+                text: "Click vào nút dưới để biết thêm thông tin!",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/RRegiment2901';
