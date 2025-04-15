@@ -27,13 +27,13 @@
       <div id="bg"></div>
       <div class="content">
         <header>
-          <h2>Cậu thương tớ có phải không nào ._.</h2>
-          <h4>Nếu cậu ko trả lời mà thoát ra tức là muốn làm ny tớ rùi đó nha :v
+          <h2>Chị ở đâu cho e xin cái địa chỉ ._.</h2>
+          <h4>Kết bạn với e kết bạn với e
           <pre><h4><a href="https://www.facebook.com/RRegiment2901" target="_blank">Facebook.
         </pre></h4></a></h4>
         </header>
-        <button id="yes" type="button" class="btn btn-danger btn-lg">Thương cậu nhìu nhìu <333 </button>
-        <button id="no" type="button" class="btn btn-info btn-lg">Cậu mơ à :333 </button>
+        <button id="yes" type="button" class="btn btn-danger btn-lg">Kết bạn liền <333 </button>
+        <button id="no" type="button" class="btn btn-info btn-lg">Em mơ à :333 </button>
       </div>
     </div>
     <audio src="./sound/sound.mp3" autoplay></audio>
